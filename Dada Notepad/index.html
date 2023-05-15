@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@100;200;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="heading">
+        <h2>Sindy Redux<span style="margin-left: 15px;"><span style="color: #7e57c2;">Note</span></span>Pad</h2>
+    </div>
+    
+    <div class="noteTitle">
+        <input type="text" maxlength="22" id="noteInput" placeholder="Note Title" />
+    </div>
+    <div class="textBox">
+        <textarea type="textarea" rows="8" id="textareaInput" placeholder="Write note..."></textarea>
+    </div>
+    <div class="circles">
+        <span class="circle" style="background-color:rgba(240, 98, 146);"><ion-icon name="checkmark-outline" class="checkIcon" ></ion-icon></span>
+        <span class="circle" style="background-color: rgb(186, 104, 200);"><ion-icon name="checkmark-outline" class="checkIcon"></ion-icon></span>
+        <span class="circle" style="background-color: rgb(79, 195, 247);"><ion-icon name="checkmark-outline" class="checkIcon"></ion-icon></span>
+        <span class="circle" style="background-color: rgb(255, 213, 79);"><ion-icon name="checkmark-outline" class="checkIcon"></ion-icon></span>
+        <span class="circle" style="background-color: rgb(174, 213, 129);"><ion-icon name="checkmark-outline" class="checkIcon"></ion-icon></span>
+        <button class="saveBtn">Save ✓</button>
+    </div>
+    <div class="search_box">
+        <input type="text" id="search" placeholder="Write to search..." />
+        <ion-icon name="search-outline"></ion-icon>
+    </div>
+    <div class="card_container">
+        <div class="card">
+            <h4>123</h4>
+            <ion-icon name="trash-outline" class="deleteBtn"></ion-icon>
+            <p>qaswd</p>
+        </div>
+
+    </div>
+
+    <div class="footer_container">
+        <div class="footer_content">
+            <a href="#">
+                <img src="./icons/github_icon.png" alt="gitHub link"></a>
+            <a href="#">
+                <img src="./icons/linkedin_icon.png" alt="linkedin link"></a>
+            <a href="#">
+                <img src="./icons/instagram_icon.svg" alt="instagram link"></a>
+            <a href="#">
+                <img src="./icons/facebook_icon.png" alt="facebook link"></a>
+            <a href="#">
+                <img src="./icons/twitter_icon.jpg" alt="twitter link"></a>
+            <a href="#">
+                <img src="./icons/youtube_icon.png" alt="you tube link"></a>
+
+            <div clas="text_content">
+                <p class="text"> Designed & Built by <br><span style="font-size: 1rem;">Sineray Dayday</span></p>
+               
+            </div>
+        </div>
+
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="./index.js"></script>
+</body>
+
+</html>
